@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+</head>
+<body>
+   <section>
+     <h2>Contacto</h2>
+       <form action="remote.html" method="post">
+            Name: <br>
+	        <input type="text" name="firstname" id="firstname" required><br>
+	        last Name <br>
+	        <input type="text" name="lastname" id="lastname" required><br>
+	        Email:<br>
+	        <input type="email" name="emailclient" id="emailclient" required><br>
+	        Age <br>
+            <input type="number" name="age"><br>
+            Datebirth<br>
+            <input type="date" name="datebirth" id="datebirth"><br><br>
+            Password: <br>
+            <input type="password" name="pass"><br>         
+            Profile <br>
+            <input type="radio" name="profile" value="F">Frontend<br>
+            <input type="radio" name="profile" value="B">Backend<br>
+            Languages<br>
+            <input type="checkbox" name="lang1" value="javascript">Javascript<br>
+            <input type="checkbox" name="lang2" value="php">Php<br>
+            Comments:<br>
+            <textarea name="" cols="30" rows="5"></textarea><br>
+            <input type="submit" name="enviar" value="Enviar Datos">
+       </form>
+   </section>
+
+   <section>
+   	     <h2>Multimedia</h2>
+   	     <video width="400" height="300" controls>
+   	           <source src="nombre de mi video" type="video/mp4">   	     	
+   	     </video>
+   	     <audio controls>
+   	     	<source src="myAudio.mp3" type="audio/mpeg">
+   	     </audio>
+   	     <iframe src="https://www.youtobe.com/watch?v=xbDI_pxD_y0" width="250" height="250">   	     	
+   	     </iframe>
+   </section>
+</body>
+</html>
